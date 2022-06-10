@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>MathJax</title>
+        <link rel="icon" herf="" type="svg">
+
+        <script>
+            MathJax = 
+            {
+                tex:
+                {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']]
+                },
+                svg:
+                {
+                    fontCache: 'global'
+                }
+            };
+        </script>
+
+        <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+    </head>
+
+    <body>
+
+        <h1>Phần hàm số lượng giác</h1>
+
+        Bài 1: tìm tập xác định của các hàm số <br>
+        <br>
+        a) $y = \dfrac{1 + cos(x)}{sin(x)}$ <br>
+        <br>
+        b) $y = \sqrt{\dfrac{1 + cos(x)}{1 - cos(x)}}$ <br>
+        <br>
+        c) $y = tan(x - \dfrac{\pi}{3})$ <br>
+        <br>
+        d) $y = cot(2x + \dfrac{\pi}{6})$
+        <br>
+        bài làm: <br>
+        Bài 1:
+        <br>
+        a) <br>
+        <br>
+        ĐKXĐ $sin(x) \neq 0$
+        <br>
+        $\iff \Bigg[\displaylines{x \neq 0 \\\ x \neq \pi}$ <br>
+        <br>
+        $\iff D = \Bbb{R}~\backslash~\{0; \pi\}$
+        <br>
+        b) <br>
+        <br>
+        ĐKXĐ $\Bigg\{\displaylines{1 - cos(x) \neq 0 \\\ \dfrac{1 + cos(x)}{1 - cos(x)} \geqslant 0}$ <br>
+        <br>
+        $\iff cos(x) \neq 1$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{x \neq 0 \\\ x \neq \pi}$<br>
+        <br>
+        $\dfrac{1 + cos(x)}{1 - cos(x)} \geqslant 0$<br>
+        <br>
+        $\Bigg\{\displaylines{1 + cos(x) \geqslant 0 \\\ 1 - cos(x) \geqslant 0}$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{cos(x) \geqslant 0 \\\ cos(x) \le 1}$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{x \in (-\dfrac{\pi}{2}; \dfrac{\pi}{2}) \\\ x \in (\dfrac{\pi}{2}; -\dfrac{\pi}{2})}$<br>
+        <br>
+        $\iff D = \Bbb{R}~\backslash~\{0; \pi\}$<br>
+        <br>
+        c) <br>
+        <br>
+        ĐKCĐ $cos(x - \dfrac{\pi}{3}) \neq 0$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{x - \dfrac{\pi}{3} \neq \dfrac{\pi}{2} \\\ x - \dfrac{\pi}{3} \neq \dfrac{3}{2}\pi}$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{x \neq \dfrac{5}{6}\pi \\\ x \neq \dfrac{11}{6}\pi}$<br>
+        <br>
+        $\iff D = \Bbb{R}~\backslash~\{\dfrac{5}{6}\pi; \dfrac{11}{6}\pi\}$<br>
+        <br>
+        d) <br>
+        <br>
+        ĐKCĐ $sin(2x - \dfrac{\pi}{6}) \neq 0$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{2x - \dfrac{\pi}{6} \neq 0 \\\ 2x - \dfrac{\pi}{6} \neq 2\pi}$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{2x \neq \dfrac{\pi}{6} \\\ 2x \neq \dfrac{7}{3}\pi}$<br>
+        <br>
+        $\iff \Bigg\{\displaylines{x \neq \dfrac{\pi}{12} \\\ x \neq \dfrac{7}{6}\pi}$<br>
+        <br>
+        $\iff D = \Bbb{R}~\backslash~\{\dfrac{\pi}{12}; \dfrac{7}{6}\pi\}$<br>
+        <br>
+
+
+
+    </body>
+<html>
