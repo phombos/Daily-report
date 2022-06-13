@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>MathJax</title>
+        <link rel="icon" herf="" type="svg">
+
+        <script>
+            MathJax = 
+            {
+                tex:
+                {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']]
+                },
+                svg:
+                {
+                    fontCache: 'global'
+                }
+            };
+        </script>
+
+        <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+    </head>
+
+    <body>
+
+        <h1>Phần hàm số lượng giác</h1>
+        <br>
+        bài 1: Hãy xác định giá trị của x trên đoạn $[-\pi; \dfrac{3\pi}{2}]$ để hàm số $y = tan(x)$:<br>
+        <br>
+        a) nhận giá trị bằng 0<br>
+        <br>
+        b) nhận giá trị bằng 1<br>
+        <br>
+        c) nhận giá trị âm<br>
+        <br>
+        d) nhận giá trị dương<br>
+        <br>
+        bài làm: <br>
+        <br>
+        a) $tan(x) = 0 \iff sin(x) = 0 \iff x = k\pi (k \in \Bbb{Z})$  <br>
+        <br>
+        vì $x \in [\pi; \dfrac{3\pi}{2}] \Rightarrow x \in {-\pi; 0; \pi} $ <br>
+        <br>
+        b) $tan(x) = 1 \iff sin(x) = 1 \if x = k\pi + \dfrac{\pi}{2}$<br>
+        <br>
+        vì $x \in [\pi; \dfrac{3\pi}{2}] \Rightarrow x \in {\dfrac{-3\pi}{4}; \dfrac{\pi}{4}; \dfrac{3\pi}{5}} $<br>
+        <br>
+        c) $tan(x) = 1 \iff sin(x) = 1 \iff x = k\pi + \dfrac{\pi}{2}$<br>
+        <br>
+        vì $x \in [\pi; \dfrac{3\pi}{2}]~\Rightarrow x \in (-\pi; \dfrac{\pi}{2}) \cup (0; \dfrac{\pi}{2}) \cup (\pi;\dfrac{3\pi}{2}) $<br><br>
+        <br>
+        d) $tan(x) = 1 \iff sin(x) = 1 \iff x = k\pi + \dfrac{\pi}{2}$<br>
+        <br>
+        vì $x \in [\pi; \dfrac{3\pi}{2}]~\Rightarrow x \in (\dfrac{-\pi}{2}; 0) \cup (\dfrac{\pi}{2}; 2\pi)$<br>
+        <br>
+        Bài 2: tìm giá trị lớn nhất của y = 6 - cos(x) <br> 
+        <br> 
+        để $y = 4 - cos(x)$ nhỏ nhất thì $cos(x) = -1 \iff x = -k\pi (k \in \Bbb{Z})$ 
+        <br>
+        
+
+    </body>
+</html>
