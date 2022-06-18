@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>MathJax</title>
+        <link rel="icon" herf="" type="svg">
+
+        <script>
+            MathJax = 
+            {
+                tex:
+                {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']]
+                },
+                svg:
+                {
+                    fontCache: 'global'
+                }
+            };
+        </script>
+
+        <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+    </head>
+
+    <body>
+        <h1> Phần hàm số lượng giác </h1>
+        Bài 1: xác định tính chẵn lẻ của các hàm số sau:<br>
+        <br>
+        a) $y = \dfrac{cos(2x)}{x}$<br>
+        <br>
+        b) $y = x - sin(x)$<br>
+        <br>
+        c) $y = \sqrt{1 - cos(x)}$<br>
+        <br>
+        d) $y = 1 + cos(x)sin(\dfrac{3\pi}{2} - 2x)$<br>
+        <br>
+        Bài làm:<br>
+        <br>
+        a) tập xác định của hàm số trên là $D = R~\backslash~\{0\}$<br>
+        <br>
+        ta có $x \in D$ thì $-x \in D$<br>
+        <br>
+        $f(-x) = \dfrac{cos(-2x)}{-x} = \dfrac{-cos(-2x)}{x} = -(\dfrac{}{})$<br>
+        <br>
+        $\iff y = \dfrac{cos(2x)}{x}$ là hàm lẻ <br>
+        <br>
+        b) tập xác định của hàm số trên là $D = R$<br>
+        <br>
+        ta có $x \in D$ thì $-x \in D$<br>
+        <br>
+        $f(-x) = -x - sin(-x) = -x + sin(x) = -(x - sin(x))$<br>
+        <br>
+        $iff y = x - sin(x)$ là hàm lẻ<br>
+        <br>
+        c) tập xác định của hàm số trên là $D = R~\backslash~\{0\}$<br>
+        <br>
+        $ta có $x \in D$ thì $-x \in D$<br>
+        <br>
+        $f(-x) = \sqrt{1 - cos(-x)} = \sqrt{1 - cos(x)}$<br>
+        <br>
+        $\iff \sqrt{1 - cos(x)} là hàm chẵn$<br>
+        <br>
+        d) tập xác định của hàm số trên là $D = R}$<br>
+        <br>
+        $ta có $x \in D$ thì $-x \in D$<br>
+        <br>
+        $f(-x) = 1 + cos(-x)sin(\dfrac{3\pi}{2} + 2x) = 1 + cos(x)$<br>
+        <br>
+
+    </body>
+</html>
